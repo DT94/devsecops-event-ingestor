@@ -14,10 +14,10 @@ jobs:
     - name: Checkout del código fuente
       uses: actions/checkout@v4
 
-    - name: Configurar Java 17
+    -- name: Configurar Java 20
       uses: actions/setup-java@v4
       with:
-        java-version: '17'
+        java-version: '20'
         distribution: 'temurin'
         cache: maven
 
