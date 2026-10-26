@@ -1,1 +1,1 @@
-# devsecops-event-ingestor
+Mini-SIEM Backend. API REST construida con Java y Spring Boot para la ingesta de eventos de seguridad. Incluye un agente simulado en Python que reporta vulnerabilidades mediante payloads JSON hacia una base de datos H2 en memoria. Orientado a flujos DevSecOps.# devsecops-event-ingestor
