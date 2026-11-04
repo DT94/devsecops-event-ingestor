@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout del código fuente
+    name: Checkout del código fuente
       uses: actions/checkout@v4
 
-    -- name: Configurar Java 20
+    - name: Configurar Java 20
       uses: actions/setup-java@v4
       with:
         java-version: '20'
